@@ -5,7 +5,13 @@
              version="2.2">
     <persistence-unit name="SalesDB">
 
-        <class>com.shoes.customer.entity.Brand</class>
+        <class>com.BaoMoi.customer.entity.Categories</class>
+        <class>com.BaoMoi.customer.entity.Comment</class>
+        <class>com.BaoMoi.customer.entity.Contact</class>
+        <class>com.BaoMoi.customer.entity.News</class>
+        <class>com.BaoMoi.customer.entity.Role</class>
+        <class>com.BaoMoi.customer.entity.Source</class>
+        <class>com.BaoMoi.customer.entity.User</class>
 
         <properties>
             <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/baomoisystem" />

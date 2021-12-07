@@ -36,7 +36,6 @@ public class WebMvcConfig {
         return viewResolver;
     }
 
-
     @Bean(name = "tilesConfigurer")
     public TilesConfigurer getTilesConfigurer() {
         TilesConfigurer tilesConfigurer = new TilesConfigurer();

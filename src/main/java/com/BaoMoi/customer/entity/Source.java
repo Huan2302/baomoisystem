@@ -10,9 +10,9 @@ import java.util.List;
 
 @Entity
 @Data
-public class Categories extends BaseEntity{
-    private Long parent_id;
+public class Source extends BaseEntity{
+    private String picture;
 
-    @OneToMany(mappedBy = "category", cascade = CascadeType.MERGE)
-    private List<News> categories = new ArrayList<>();
+    @OneToMany(mappedBy = "source", cascade = CascadeType.MERGE)
+    private List<News> source = new ArrayList<>();
 }
